@@ -21,7 +21,7 @@ void* supplier(void* arg) {
         pthread_cond_signal(&cond1);  
         pthread_mutex_unlock(&lock);  
 
-        sleep(1);  х
+        sleep(1);  
     }
     return NULL;
 }
